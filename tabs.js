@@ -1,6 +1,6 @@
+var tabs_directive = angular.module('uiTabs', []);
 
-angular.module('Spirits').
-directive('tabs', function() {
+tabs_directive.directive('tabs', function() {
 	return {
 		restrict: 'E',
 		transclude: true,
